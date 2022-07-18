@@ -18,7 +18,7 @@ public class ThreeDice {
         else if (num1 == num2 || num1 == num3) {
             result = 1000 + num1 * 100;
         }
-        else if (num2 == num3) {			// 이 부분을 빼먹고 풀어서 계속 틀렸었다.
+        else if (num2 == num3) {		
             result = 1000 + num2 * 100;
         }
         else {
